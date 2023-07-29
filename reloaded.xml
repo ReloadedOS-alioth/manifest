@@ -15,6 +15,10 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <remote name="reloaded-alioth"
+          fetch="https://github.com/ReloadedOS-alioth"
+          revision="t" />
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="reloaded" />
 
@@ -92,7 +96,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="reloaded" />
   <project path="external/zlib" name="external_zlib" remote="reloaded" />
   <project path="frameworks/av" name="frameworks_av" remote="reloaded" />
-  <project path="frameworks/base" name="frameworks_base" remote="reloaded" />
+  <project path="frameworks/base" name="frameworks_base" remote="reloaded-alioth" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="reloaded" />
   <project path="frameworks/native" name="frameworks_native" remote="reloaded" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="reloaded" />
@@ -104,7 +108,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="reloaded" />
   <project path="packages/apps/ReloadedXtras" name="packages_apps_ReloadedXtras" remote="reloaded" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="reloaded" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="reloaded-alioth" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="reloaded" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="reloaded" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="reloaded" />
