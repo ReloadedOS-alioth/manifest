@@ -158,4 +158,9 @@
   <project path="hardware/qcom/sdm845/gps" name="hardware_qcom_gps" remote="reloaded" revision="t-sdm845" />
   <project path="hardware/qcom/sdm845/media" name="hardware_qcom_media" remote="reloaded" revision="t-sdm845" />
 
+<!-- Alioth -->
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="reloaded-alioth" revision="thirteen" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="reloaded-alioth" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="reloaded-alioth" />
+
 </manifest>
